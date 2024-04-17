@@ -35,3 +35,18 @@ const bigIntNumber = 98585256852558
 const myFunction = function(){
     console.log("hello world");
 }
+
+
+// heap and stack
+
+userOne = {
+    name:"Manali",
+    age:22
+}
+console.log(userOne);
+
+userTwo = userOne
+console.log(userTwo);
+
+ userTwo.name = "manu"
+console.log(userTwo);
