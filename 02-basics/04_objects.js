@@ -30,3 +30,8 @@ console.log(obj3);
 const stringVal = "manali pathratkar"
 const newVal = [...stringVal]
 console.log(newVal);
+console.log('***********************')
+console.log(Object.keys(user));
+console.log(Object.values(user));
+console.log(Object.entries(user));
+console.log(user.hasOwnProperty('IsLogged'))
