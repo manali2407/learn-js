@@ -35,3 +35,14 @@ console.log(Object.keys(user));
 console.log(Object.values(user));
 console.log(Object.entries(user));
 console.log(user.hasOwnProperty('IsLogged'))
+
+
+
+const course ={
+    cousrseName : "javascript",
+    coursePrice : 999,
+    courseInstrctor:"Manali"
+}
+
+const {courseInstrctor: instructor} = course
+console.log(instructor);
